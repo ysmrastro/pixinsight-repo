@@ -1,0 +1,66 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+/* PixInsight Scripts カスタムスタイル */
+
+/* ヘッダーに深い夜空の雰囲気 */
+.masthead {
+  background-color: #0d1117;
+  border-bottom: 1px solid #1a2332;
+}
+
+/* リンクを星のような色合いに */
+a {
+  color: #7eb8da;
+
+  &:hover {
+    color: #b8d4e8;
+  }
+}
+
+/* ボタンのカスタマイズ */
+.btn--primary {
+  background-color: #1a4a6e;
+  border-color: #1a4a6e;
+
+  &:hover {
+    background-color: #245d87;
+    border-color: #245d87;
+  }
+}
+
+/* スクリプトカード */
+.script-card {
+  display: block;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    border-color: #7eb8da;
+    box-shadow: 0 0 10px rgba(126, 184, 218, 0.15);
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 0;
+    color: #7eb8da;
+  }
+
+  p {
+    color: #c9d1d9;
+    margin-bottom: 0;
+  }
+
+  img {
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
+}

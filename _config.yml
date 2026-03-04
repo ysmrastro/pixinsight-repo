@@ -1,0 +1,33 @@
+# サイト設定
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
+
+# サイト情報
+title: "PixInsight Scripts"
+subtitle: "by ysmrastro"
+description: "PixInsight scripts and tools by ysmrastro"
+url: "https://ysmrastro.github.io"
+baseurl: "/pixinsight-repo"
+locale: "ja-JP"
+
+# ビルド設定
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# デフォルトのページ設定
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+
+# フッター
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ysmrastro"
