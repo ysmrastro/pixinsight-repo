@@ -4,8 +4,7 @@ minimal_mistakes_skin: "dark"
 
 # サイト情報
 title: "PixInsight Scripts"
-subtitle: "by ysmrastro"
-description: "PixInsight scripts and tools by ysmrastro"
+description: "PixInsight scripts and tools"
 url: "https://ysmrastro.github.io"
 baseurl: "/pixinsight-repo"
 locale: "ja-JP"

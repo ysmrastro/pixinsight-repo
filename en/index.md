@@ -5,7 +5,7 @@ title: "PixInsight Scripts"
 
 [日本語](../)
 
-PixInsight scripts developed by ysmrastro.
+Custom scripts and tools for PixInsight.
 
 <a href="{{ site.baseurl }}/manual-image-solver/en/" class="script-card">
   <img src="{{ site.baseurl }}/assets/images/manual-image-solver/03_stars_registered.jpg" alt="Manual Image Solver">
