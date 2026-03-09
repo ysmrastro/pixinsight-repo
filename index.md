@@ -7,6 +7,14 @@ title: "PixInsight Scripts"
 
 PixInsight 用の自作スクリプトを公開しています。
 
+## インストール
+
+PixInsight の **Resources > Updates > Manage Repositories** で以下の URL を追加してください：
+
+```
+https://ysmrastro.github.io/pixinsight-scripts/
+```
+
 <div markdown="0">
 <a href="{{ site.baseurl }}/manual-image-solver/" class="script-card">
   <img src="{{ site.baseurl }}/assets/images/manual-image-solver/03_stars_registered.jpg" alt="Manual Image Solver">
