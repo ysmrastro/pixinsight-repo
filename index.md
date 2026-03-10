@@ -16,9 +16,16 @@ https://ysmrastro.github.io/pixinsight-scripts/
 ```
 
 <div markdown="0">
-<a href="{{ site.baseurl }}/manual-image-solver/" class="script-card">
-  <img src="{{ site.baseurl }}/assets/images/manual-image-solver/03_stars_registered.jpg" alt="Manual Image Solver">
-  <h3>Manual Image Solver</h3>
-  <p>手動プレートソルブツール。自動ソルブが失敗した画像に対し、星を手動で同定して WCS を取得します。Python 不要、PixInsight 完結。</p>
-</a>
+<div class="script-cards-row">
+  <a href="{{ site.baseurl }}/manual-image-solver/" class="script-card">
+    <img src="{{ site.baseurl }}/assets/images/manual-image-solver/05_stars_registered.jpg" alt="Manual Image Solver">
+    <h3>Manual Image Solver</h3>
+    <p>手動プレートソルブツール。自動ソルブが失敗した画像に対し、組み込みカタログから星を選択して WCS を取得します。Python 不要、PixInsight 完結。</p>
+  </a>
+  <a href="{{ site.baseurl }}/split-image-solver/" class="script-card">
+    <img src="{{ site.baseurl }}/assets/images/split-image-solver/main-dialog.jpg" alt="Split Image Solver">
+    <h3>Split Image Solver</h3>
+    <p>広角星野写真を分割してプレートソルブし、WCS を統合して元画像に適用します。ImageSolver では対応できない超広角画像の SPCC 実行に対応。</p>
+  </a>
+</div>
 </div>

@@ -60,7 +60,24 @@ a {
   }
 
   img {
+    width: 100%;
     border-radius: 4px;
     margin-bottom: 1em;
+  }
+}
+
+/* スクリプトカード横並びレイアウト */
+.script-cards-row {
+  display: flex;
+  gap: 1.5em;
+  align-items: stretch;
+
+  .script-card {
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
   }
 }
