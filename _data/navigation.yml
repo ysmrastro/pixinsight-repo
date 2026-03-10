@@ -3,3 +3,5 @@ main:
     url: /
   - title: "Manual Image Solver"
     url: /manual-image-solver/
+  - title: "Split Image Solver"
+    url: /split-image-solver/
