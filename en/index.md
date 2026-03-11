@@ -12,7 +12,7 @@ Custom scripts and tools for PixInsight.
   <a href="{{ site.baseurl }}/manual-image-solver/en/" class="script-card">
     <img src="{{ site.baseurl }}/assets/images/manual-image-solver/05_stars_registered.jpg" alt="Manual Image Solver">
     <h3>Manual Image Solver</h3>
-    <p>A manual plate solving tool. Select stars from a built-in catalog to obtain a WCS solution when automatic solvers fail. Runs entirely within PixInsight.</p>
+    <p>A manual plate solving tool. Select stars from a built-in catalog to obtain a WCS solution when automatic solvers fail.</p>
   </a>
   <a href="{{ site.baseurl }}/split-image-solver/en/" class="script-card">
     <img src="{{ site.baseurl }}/assets/images/split-image-solver/main-dialog.jpg" alt="Split Image Solver">

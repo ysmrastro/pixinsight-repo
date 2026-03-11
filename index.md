@@ -20,7 +20,7 @@ https://ysmrastro.github.io/pixinsight-scripts/
   <a href="{{ site.baseurl }}/manual-image-solver/" class="script-card">
     <img src="{{ site.baseurl }}/assets/images/manual-image-solver/05_stars_registered.jpg" alt="Manual Image Solver">
     <h3>Manual Image Solver</h3>
-    <p>手動プレートソルブツール。自動ソルブが失敗した画像に対し、組み込みカタログから星を選択して WCS を取得します。PixInsight 完結。</p>
+    <p>手動プレートソルブツール。自動ソルブが失敗した画像に対し、組み込みカタログから星を選択して WCS を取得します。</p>
   </a>
   <a href="{{ site.baseurl }}/split-image-solver/" class="script-card">
     <img src="{{ site.baseurl }}/assets/images/split-image-solver/main-dialog.jpg" alt="Split Image Solver">
