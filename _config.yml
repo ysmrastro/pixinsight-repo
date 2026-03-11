@@ -6,7 +6,7 @@ minimal_mistakes_skin: "dark"
 title: "PixInsight Scripts"
 description: "PixInsight scripts and tools"
 url: "https://ysmrastro.github.io"
-baseurl: "/pixinsight-repo"
+baseurl: "/pixinsight-repository"
 locale: "ja-JP"
 
 # ビルド設定
