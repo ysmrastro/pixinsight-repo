@@ -11,7 +11,7 @@ A manual plate solving tool for PixInsight. Manually identify stars on an image 
 
 When automatic plate solving with astrometry.net or PixInsight's ImageSolver fails, this tool lets you manually identify stars to obtain a WCS solution.
 
-**Runs entirely within PixInsight**: No external dependencies like Python required. All operations — image display, star selection, WCS fitting, and application — are performed within a native PJSR Dialog.
+**Runs entirely within PixInsight**: All operations — image display, star selection, WCS fitting, and application — are performed within a native PJSR Dialog.
 
 ![Main dialog with registered stars]({{ site.baseurl }}/assets/images/manual-image-solver/05_stars_registered.jpg)
 
@@ -50,8 +50,6 @@ When automatic plate solving with astrometry.net or PixInsight's ImageSolver fai
 2. In PixInsight, open **Script > Feature Scripts...**
 3. Click **Add** and select the `manual-image-solver/javascript/` directory
 4. Click **Done** — **Script > Astrometry > ManualImageSolver** will appear in the menu
-
-No Python or external packages required.
 
 ## Usage
 
